@@ -1,0 +1,13 @@
+[[redirects]]
+  from = "/headers"
+  to = "https://httpbin.org/headers"
+  status = 200
+  signed = "PROXY_REQUEST_KEY"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[build.environment]
+  PROXY_REQUEST_KEY = "blah-blah-blah-so-secret"
