@@ -9,6 +9,13 @@
   to = "https://httpbin.org/headers"
   status = 200
   signed = "PROXY_REQUEST_KEY"
+  
+
+[[redirects]]
+  from = "/cb"
+  to = "to = "https://ph.my.scribital.com/phoebe/v1/oauth2/callback""
+  status = 200
+  signed = "PROXY_REQUEST_KEY"
 
 [[redirects]]
   from = "/*"
