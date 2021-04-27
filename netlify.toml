@@ -3,13 +3,20 @@
   to = "https://httpbin.org/headers"
   status = 200
   signed = "PROXY_REQUEST_KEY"
-  
+
+
 [[redirects]]
-  from = "/glitch-headers"
-  to = "https://harmless-valley-swamp.glitch.me/rawHeaders"
+  from = "/get"
+  to = "https://blossom-hip-ketch.glitch.me/get"
   status = 200
   signed = "PROXY_REQUEST_KEY"
-  
+
+[[redirects]]
+  from = "/set"
+  to = "https://blossom-hip-ketch.glitch.me/set"
+  status = 200
+  signed = "PROXY_REQUEST_KEY"
+
 
 [[redirects]]
   from = "/cb"
