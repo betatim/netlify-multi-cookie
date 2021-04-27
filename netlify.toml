@@ -17,6 +17,11 @@
   status = 200
   signed = "PROXY_REQUEST_KEY"
 
+[[redirects]]
+  from = "/ping"
+  to = "https://ph.my.scribital.com/phoebe/v1/"
+  status = 200
+  signed = "PROXY_REQUEST_KEY"
 
 [[redirects]]
   from = "/cb"
