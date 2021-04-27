@@ -3,6 +3,12 @@
   to = "https://httpbin.org/headers"
   status = 200
   signed = "PROXY_REQUEST_KEY"
+  
+[[redirects]]
+  from = "https://jovial-perlman-6a5ebf.netlify.app/headers2"
+  to = "https://httpbin.org/headers"
+  status = 200
+  signed = "PROXY_REQUEST_KEY"
 
 [[redirects]]
   from = "/*"
